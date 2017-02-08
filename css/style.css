@@ -478,12 +478,17 @@ footer .navbar-default .navbar-nav>li>a:hover {
 	text-decoration: underline;
 	color: #999999;
 }
+
 .navbar-nav>li>a.socia_a {
 	padding-top: 10px;
 }
 
-.navbar-nav>li>a.socia_a:hover {
-	
+.navbar-nav>li>a.socia_a img {
+	transition: all 1.5s;
+}
+
+.navbar-nav>li>a.socia_a:hover img {
+	transform: rotate(360deg);
 }
 
 
