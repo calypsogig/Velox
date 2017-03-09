@@ -8,7 +8,7 @@
 	<title>Velox</title>
 
 	<link rel="shortcut icon" href="favicon.ico" type="image/x-icon" />
-	<link href="https://fonts.googleapis.com/css?family=Lora:400,700|Open+Sans:300,400,600|Roboto:300|Source+Sans+Pro:600&amp;subset=cyrillic-ext" rel="stylesheet">
+	<link href="https://fonts.googleapis.com/css?family=Lora:400,700&#448;Open+Sans:300,400,600&#448;Roboto:300&#448;Source+Sans+Pro:600&amp;subset=cyrillic-ext" rel="stylesheet">
 	<!-- Latest compiled and minified CSS -->
 	<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
 
@@ -17,8 +17,8 @@
 	
 	<!-- Bootstrap 
 	  <link href="css/bootstrap.min.css" rel="stylesheet">-->
-  
-  <link href="css/style.css" rel="stylesheet">
+  <link rel="stylesheet" type="text/css" href="css/animate.css">
+  <link rel="stylesheet" type="text/css" href="css/style.css">
 		
 	<!-- HTML5 shim and Respond.js for IE8 support of HTML5 elements and media queries -->
 	<!-- WARNING: Respond.js doesn't work if you view the page via file:// -->
@@ -47,11 +47,11 @@
 					<!-- Collect the nav links, forms, and other content for toggling -->
 					<div class="collapse navbar-collapse" id="menu-top">
 						<ul class="nav navbar-nav navbar-right">
-							<li><a href="#">Services</a></li>
-							<li><a href="#">Portofolio</a></li>
-							<li><a href="#">Testimonials</a></li>
-							<li><a href="#">About</a></li>
-							<li><a href="#">Contact</a></li>
+							<li><a href="#services">Services</a></li>
+							<li><a href="#portfolio">Portofolio</a></li>
+							<li><a href="#testimonials">Testimonials</a></li>
+							<li><a href="#about">About</a></li>
+							<li><a href="#contact">Contact</a></li>
 						</ul>
 					</div><!-- /.navbar-collapse -->
 				</div><!-- /.container -->
@@ -73,32 +73,32 @@
 		</section> 
 	</header><!-- /header -->
 
-		<section>
+		<section id="services">
 			<div class="container">
-				<div class="row text-center">
+				<div class="row text-center wow zoomIn">
 					<h2>Our Services</h2>
 					<p class="line"></p>
 				</div>
 				<div class="row">
-					<div class="col-md-3 col-xs-6 text-center">
+					<div class="col-md-3 col-xs-6 text-center wow fadeInLeft">
 						<img src="img/icon_1.png" alt="icon">
 						<h3>Logo DESIGN</h3>
 						<div class="line_bl"></div>
 						<p class="p_bl">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
 					</div>
-					<div class="col-md-3 col-xs-6 text-center">
+					<div class="col-md-3 col-xs-6 text-center wow fadeInLeft" data-wow-delay="0.5s">
 						<img src="img/icon_2.png" alt="icon">
 						<h3>Web Design</h3>
 						<div class="line_bl"></div>
 						<p class="p_bl">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
 					</div>
-					<div class="col-md-3 col-xs-6 text-center">
+					<div class="col-md-3 col-xs-6 text-center wow fadeInRight" data-wow-delay="0.5s">
 						<img src="img/icon_3.png" alt="icon">
 						<h3>Branding</h3>
 						<div class="line_bl"></div>
 						<p class="p_bl">Lorem Ipsum is simply dummy text of the printing and typesetting let. Lorem Ipsum has been the industry.</p>
 					</div>
-					<div class="col-md-3 col-xs-6 text-center">
+					<div class="col-md-3 col-xs-6 text-center wow fadeInRight">
 						<img src="img/icon_4.png" alt="icon">
 						<h3>illustrations</h3>
 						<div class="line_bl"></div>
@@ -108,15 +108,13 @@
 			</div>
 		</section>
 		
-		<section class="bg_2">
+		<section id="portfolio" class="bg_2">
 			<div class="container">
-				<div class="row text-center">
+				<div class="row text-center wow zoomIn">
 					<h2>Portfolio</h2>
 					<p class="line"></p>
-<!--
 				</div>
 				<div class="row text-center">
--->
 					<div class="menu_bl">
 						<ul class="nav navbar-nav menu">
 							<li class="active"><a href="#" class="s11">ALL</a></li>
@@ -126,20 +124,6 @@
 							<li><a href="#" class="s11">WEB DESIGN</a></li>
 						</ul>
 					</div>
-					  <!--<ul class="nav nav-pills">
-						  <li role="presentation" class="active">
-						  	<a href="#">ALL
-						  <p class="line_bl line_menu"></p>
-						  	</a></li>
-						  <li role="presentation">
-						  	<a href="#">ILLUSTRATIONS
-						  		<p class="line_bl line_menu"></p>
-						  	</a>
-						  </li>
-						  <li role="presentation"><a href="#">LOGO</a></li>
-						  <li role="presentation"><a href="#">Branding</a></li>
-						  <li role="presentation"><a href="#">WEB DESIGN</a></li>
-						</ul>-->
 				</div>
 				<div class="row">
 					<div class="col-md-4 col-sm-6 text-center">
@@ -201,39 +185,39 @@
 			</div>
 		</section>
 
-		<section>
+		<section id="testimonials">
 			<div class="container">
-				<div class="row text-center">
+				<div class="row text-center wow zoomIn">
 					<h2>Recent Brands we’ve worked with</h2>
 					<p class="line"></p>
 				</div>
 				<div class="row brand">
-					<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="col-md-2 col-sm-4 col-xs-6 wow flipInX">
 						<div class="brand_img text-center">
 							<img src="img/brand_1.png" alt="">
 						</div>
 					</div>
-					<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="col-md-2 col-sm-4 col-xs-6 wow flipInX" data-wow-delay="0.3s">
 						<div class="brand_img text-center">
 							<img src="img/brand_2.png" alt="">
 						</div>
 					</div>
-					<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="col-md-2 col-sm-4 col-xs-6 wow flipInX" data-wow-delay="0.6s">
 						<div class="brand_img text-center">
 							<img src="img/brand_3.png" alt="">
 						</div>
 					</div>
-					<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="col-md-2 col-sm-4 col-xs-6 wow flipInX" data-wow-delay="0.9s">
 						<div class="brand_img text-center">
 							<img src="img/brand_4.png" alt="">
 						</div>
 					</div>
-					<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="col-md-2 col-sm-4 col-xs-6 wow flipInX" data-wow-delay="1.2s">
 						<div class="brand_img text-center">
 							<img src="img/brand_5.png" alt="">
 						</div>
 					</div>
-					<div class="col-md-2 col-sm-4 col-xs-6">
+					<div class="col-md-2 col-sm-4 col-xs-6 wow flipInX" data-wow-delay="1.5s">
 						<div class="brand_img text-center">
 							<img src="img/brand_6.png" alt="">
 						</div>
@@ -242,14 +226,14 @@
 			</div>
 		</section>
 		
-		<section class="bg_2">
+		<section id="about" class="bg_2">
 			<div class="container">
-				<div class="row text-center">
+				<div class="row text-center wow zoomIn">
 					<h2>See what others are saying about us</h2>
 					<p class="line"></p>
 				</div>
 				<div class="row">
-					<div class="">
+					<div>
 						<div id="carousel-example-generic" class="carousel slide" data-ride="carousel">
 					  	<!-- Indicators -->
 							<ol class="carousel-indicators">
@@ -314,7 +298,7 @@
 			</div>
 		</section>
 		
-		<section class="bg_3">
+		<section id="contact" class="bg_3">
 			<div class="container">
 				<div class="row">
 					<div class="col-md-8 col-md-push-4 p_40p">
@@ -347,15 +331,15 @@
 					</div>
 					<div class="col-md-4 col-md-pull-8 p_40p">
 						<h3>Connection</h3>
-						<address>
+						<!-- <address> -->
 							<h4>Our address</h4>
 						<p class="bg_3_p">House No,11132, Sector 31, Gurgaon 122001  India</p>
 						<h4>Call us</h4>
-						<p><a href="tel:+ 91-9876543210">+ 91-9876543210</a></p>
-						<p class="bg_3_p"><a href="tel:+ 01262219018">+ 01262219018</a></p>
+						<p><a href="tel:+9(1987)6543210">+9(1987)6543210</a></p>
+						<p class="bg_3_p"><a href="tel:+3(0126)2219018">+3(0126)2219018</a></p>
 						<h4>Email us</h4>
 						<p class="bg_3_p"><a href="mailto:contactus@email.com">contactus@email.com</a></p>
-						</address>
+						<!-- </address> -->
 					</div>
 				</div>
 			</div>
@@ -385,10 +369,10 @@
 									<li><a href="#">Services</a></li>
 									<li><a href="#">Blog</a></li>
 									<li><a href="#">Contact</a></li>
-									<li><a class="socia_a" width="31" height="31" href="#"><img src="img/soc/fb.png" alt=""></a></li>
-									<li><a class="socia_a" width="31" height="31" href="#"><img src="img/soc/tw.png" alt=""></a></li>
-									<li><a class="socia_a" width="31" height="31" href="#"><img src="img/soc/path.png" alt=""></a></li>
-									<li><a class="socia_a" width="31" height="31" href="#"><img src="img/soc/linkedin.png" alt=""></a></li>
+									<li><a class="socia_a" href="#"><img src="img/soc/fb.png" width="31" height="31" alt=""></a></li>
+									<li><a class="socia_a" href="#"><img src="img/soc/tw.png" width="31" height="31" alt=""></a></li>
+									<li><a class="socia_a" href="#"><img src="img/soc/path.png" width="31" height="31" alt=""></a></li>
+									<li><a class="socia_a" href="#"><img src="img/soc/linkedin.png" width="31" height="31" alt=""></a></li>
 								</ul>
 							</div><!-- /.navbar-collapse -->
 						</div><!-- /.container -->
@@ -404,6 +388,7 @@
 	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
 	<!-- Include all compiled plugins (below), or include individual files as needed -->
 	<!--<script src="js/bootstrap.min.js"></script>-->
+	<script type="text/javascript" src="js/wow.min.js"></script>
 	<script src="js/scripts.js"></script>
 </body>
 </html>
